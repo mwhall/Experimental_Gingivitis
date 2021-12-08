@@ -1,0 +1,69 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1678 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 29.23%
+
+RAxML computation of SH-like support values on a given tree
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1678
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/mwhall/Software/standard-RAxML-8.2.12/raxmlHPC-SSE3 -T 8 -m GTRGAMMA -f J -p 12345 -t RAxML_rootedTree.root.ref.tre -n conf.root.ref.tre -s HOMD_16S_rRNA_RefSeq_V15.1.aligned.clean.fasta 
+
+
+Time after model optimization: 41.209587
+Initial Likelihood -229046.593439
+
+NNI interchanges 18 Likelihood -229019.967443
+NNI interchanges 0 Likelihood -229018.946362
+
+Final Likelihood of NNI-optimized tree: -229018.946362
+
+RAxML NNI-optimized tree written to file: /home/mwhall/Documents/Dilani/ExperimentalGingivitis/Experimental_Gingivitis/data/RAxML_fastTree.conf.root.ref.tre
+
+Same tree with SH-like supports written to file: /home/mwhall/Documents/Dilani/ExperimentalGingivitis/Experimental_Gingivitis/data/RAxML_fastTreeSH_Support.conf.root.ref.tre
+
+Total execution time: 78.077385

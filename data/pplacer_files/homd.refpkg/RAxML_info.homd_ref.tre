@@ -1,0 +1,90 @@
+IMPORTANT WARNING: Alignment column 1 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 2 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 3 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 4 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 5 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 7 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 8 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 8 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+undetermined columns removed is printed to file HOMD_16S_rRNA_RefSeq_V15.1.aligned.clean.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 8 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1678 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 29.23%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1678
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/mwhall/Software/standard-RAxML-8.2.12/raxmlHPC-SSE3 -T 8 -m GTRGAMMA -s HOMD_16S_rRNA_RefSeq_V15.1.aligned.clean.fasta -n homd_ref.tre -f d -p 12345 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.253 0.224 0.316 0.208 
+
+Inference[0]: Time 5308.173785 GAMMA-based likelihood -229046.975162, best rearrangement setting 15
+alpha[0]: 0.430502 rates[0] ac ag at cg ct gt: 0.701962 2.130924 1.356833 0.622056 3.576847 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -229046.606250 tree written to file /home/mwhall/Documents/Dilani/ExperimentalGingivitis/Experimental_Gingivitis/data/RAxML_result.homd_ref.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -229046.606250 .... 
+
+Final GAMMA-based Score of best tree -229046.606250
+
+Program execution info written to /home/mwhall/Documents/Dilani/ExperimentalGingivitis/Experimental_Gingivitis/data/RAxML_info.homd_ref.tre
+Best-scoring ML tree written to: /home/mwhall/Documents/Dilani/ExperimentalGingivitis/Experimental_Gingivitis/data/RAxML_bestTree.homd_ref.tre
+
+Overall execution time: 6378.706254 secs or 1.771863 hours or 0.073828 days
+

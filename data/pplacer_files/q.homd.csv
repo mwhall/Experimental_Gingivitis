@@ -1,0 +1,2 @@
+origin,name,multiplicity,edge_num,like_weight_ratio,post_prob,likelihood,marginal_like,distal_length,pendant_length,classification,map_ratio,map_overlap,map_identity
+homd.clean.align,e9036e6df607f0873e7d14e3556c798e,1,574,0.210321,0.340811,-47399,-47401.2,5.84696e-06,6.11352e-06,NA,NA,NA,NA
